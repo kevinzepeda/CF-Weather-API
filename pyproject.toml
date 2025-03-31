@@ -1,0 +1,18 @@
+[project]
+name = "CF-Weather-API"
+version = "0.1.0"
+description = "Weather API for Cloudflare Challenge"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "redis",
+    "pydantic",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+    "pytest",
+    "httpx",
+]
