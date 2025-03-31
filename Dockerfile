@@ -2,9 +2,9 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY pyproject.toml ./
+COPY requirements.txt ./
 
-RUN pip install uv && uv install --no-cache-dir
+RUN pip install -r requirements.txt
 
 COPY . .
 
