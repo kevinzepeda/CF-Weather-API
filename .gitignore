@@ -1,0 +1,7 @@
+api/__pycache__/
+api/routes/__pycache__/
+core/__pycache__/
+models/__pycache__/
+
+uv.lock
+.env
